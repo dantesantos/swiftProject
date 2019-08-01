@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F38C19822EA6993003C6BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C19722EA6993003C6BBD /* AppDelegate.swift */; };
+		9F38C19A22EA6993003C6BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C19922EA6993003C6BBD /* ViewController.swift */; };
+		9F38C19D22EA6993003C6BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F38C19B22EA6993003C6BBD /* Main.storyboard */; };
+		9F38C19F22EA6994003C6BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38C19E22EA6994003C6BBD /* Assets.xcassets */; };
+		9F38C1A222EA6994003C6BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F38C1A022EA6994003C6BBD /* LaunchScreen.storyboard */; };
+		9F38C1AD22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C1AC22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift */; };
+		9F38C1B822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C1B722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F38C1A922EA6994003C6BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F38C18C22EA6993003C6BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F38C19322EA6993003C6BBD;
+			remoteInfo = BRAKO_LinkYou_Dante_Wontae;
+		};
+		9F38C1B422EA6994003C6BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F38C18C22EA6993003C6BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F38C19322EA6993003C6BBD;
+			remoteInfo = BRAKO_LinkYou_Dante_Wontae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F38C19422EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRAKO_LinkYou_Dante_Wontae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F38C19722EA6993003C6BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F38C19922EA6993003C6BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F38C19C22EA6993003C6BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F38C19E22EA6994003C6BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F38C1A122EA6994003C6BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F38C1A322EA6994003C6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F38C1A822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRAKO_LinkYou_Dante_WontaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F38C1AC22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRAKO_LinkYou_Dante_WontaeTests.swift; sourceTree = "<group>"; };
+		9F38C1AE22EA6994003C6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F38C1B322EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRAKO_LinkYou_Dante_WontaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F38C1B722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRAKO_LinkYou_Dante_WontaeUITests.swift; sourceTree = "<group>"; };
+		9F38C1B922EA6994003C6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F38C19122EA6993003C6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1A522EA6994003C6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1B022EA6994003C6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F38C18B22EA6993003C6BBD = {
+			isa = PBXGroup;
+			children = (
+				9F38C19622EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */,
+				9F38C1AB22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests */,
+				9F38C1B622EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests */,
+				9F38C19522EA6993003C6BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F38C19522EA6993003C6BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F38C19422EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae.app */,
+				9F38C1A822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.xctest */,
+				9F38C1B322EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F38C19622EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */ = {
+			isa = PBXGroup;
+			children = (
+				9F38C19722EA6993003C6BBD /* AppDelegate.swift */,
+				9F38C19922EA6993003C6BBD /* ViewController.swift */,
+				9F38C19B22EA6993003C6BBD /* Main.storyboard */,
+				9F38C19E22EA6994003C6BBD /* Assets.xcassets */,
+				9F38C1A022EA6994003C6BBD /* LaunchScreen.storyboard */,
+				9F38C1A322EA6994003C6BBD /* Info.plist */,
+			);
+			path = BRAKO_LinkYou_Dante_Wontae;
+			sourceTree = "<group>";
+		};
+		9F38C1AB22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F38C1AC22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift */,
+				9F38C1AE22EA6994003C6BBD /* Info.plist */,
+			);
+			path = BRAKO_LinkYou_Dante_WontaeTests;
+			sourceTree = "<group>";
+		};
+		9F38C1B622EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F38C1B722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift */,
+				9F38C1B922EA6994003C6BBD /* Info.plist */,
+			);
+			path = BRAKO_LinkYou_Dante_WontaeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F38C19322EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F38C1BC22EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_Wontae" */;
+			buildPhases = (
+				9F38C19022EA6993003C6BBD /* Sources */,
+				9F38C19122EA6993003C6BBD /* Frameworks */,
+				9F38C19222EA6993003C6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRAKO_LinkYou_Dante_Wontae;
+			productName = BRAKO_LinkYou_Dante_Wontae;
+			productReference = 9F38C19422EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F38C1A722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F38C1BF22EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_WontaeTests" */;
+			buildPhases = (
+				9F38C1A422EA6994003C6BBD /* Sources */,
+				9F38C1A522EA6994003C6BBD /* Frameworks */,
+				9F38C1A622EA6994003C6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F38C1AA22EA6994003C6BBD /* PBXTargetDependency */,
+			);
+			name = BRAKO_LinkYou_Dante_WontaeTests;
+			productName = BRAKO_LinkYou_Dante_WontaeTests;
+			productReference = 9F38C1A822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F38C1B222EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F38C1C222EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_WontaeUITests" */;
+			buildPhases = (
+				9F38C1AF22EA6994003C6BBD /* Sources */,
+				9F38C1B022EA6994003C6BBD /* Frameworks */,
+				9F38C1B122EA6994003C6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F38C1B522EA6994003C6BBD /* PBXTargetDependency */,
+			);
+			name = BRAKO_LinkYou_Dante_WontaeUITests;
+			productName = BRAKO_LinkYou_Dante_WontaeUITests;
+			productReference = 9F38C1B322EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F38C18C22EA6993003C6BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Dante Coelho Cerqueira Santos";
+				TargetAttributes = {
+					9F38C19322EA6993003C6BBD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9F38C1A722EA6994003C6BBD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9F38C19322EA6993003C6BBD;
+					};
+					9F38C1B222EA6994003C6BBD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9F38C19322EA6993003C6BBD;
+					};
+				};
+			};
+			buildConfigurationList = 9F38C18F22EA6993003C6BBD /* Build configuration list for PBXProject "BRAKO_LinkYou_Dante_Wontae" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F38C18B22EA6993003C6BBD;
+			productRefGroup = 9F38C19522EA6993003C6BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F38C19322EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */,
+				9F38C1A722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests */,
+				9F38C1B222EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F38C19222EA6993003C6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F38C1A222EA6994003C6BBD /* LaunchScreen.storyboard in Resources */,
+				9F38C19F22EA6994003C6BBD /* Assets.xcassets in Resources */,
+				9F38C19D22EA6993003C6BBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1A622EA6994003C6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1B122EA6994003C6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F38C19022EA6993003C6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F38C19A22EA6993003C6BBD /* ViewController.swift in Sources */,
+				9F38C19822EA6993003C6BBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1A422EA6994003C6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F38C1AD22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38C1AF22EA6994003C6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F38C1B822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F38C1AA22EA6994003C6BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F38C19322EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */;
+			targetProxy = 9F38C1A922EA6994003C6BBD /* PBXContainerItemProxy */;
+		};
+		9F38C1B522EA6994003C6BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F38C19322EA6993003C6BBD /* BRAKO_LinkYou_Dante_Wontae */;
+			targetProxy = 9F38C1B422EA6994003C6BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F38C19B22EA6993003C6BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F38C19C22EA6993003C6BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F38C1A022EA6994003C6BBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F38C1A122EA6994003C6BBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F38C1BA22EA6994003C6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F38C1BB22EA6994003C6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F38C1BD22EA6994003C6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_Wontae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-Wontae";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F38C1BE22EA6994003C6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_Wontae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-Wontae";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F38C1C022EA6994003C6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_WontaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-WontaeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRAKO_LinkYou_Dante_Wontae.app/BRAKO_LinkYou_Dante_Wontae";
+			};
+			name = Debug;
+		};
+		9F38C1C122EA6994003C6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_WontaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-WontaeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRAKO_LinkYou_Dante_Wontae.app/BRAKO_LinkYou_Dante_Wontae";
+			};
+			name = Release;
+		};
+		9F38C1C322EA6994003C6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_WontaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-WontaeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BRAKO_LinkYou_Dante_Wontae;
+			};
+			name = Debug;
+		};
+		9F38C1C422EA6994003C6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRAKO_LinkYou_Dante_WontaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Student.BRAKO-LinkYou-Dante-WontaeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BRAKO_LinkYou_Dante_Wontae;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F38C18F22EA6993003C6BBD /* Build configuration list for PBXProject "BRAKO_LinkYou_Dante_Wontae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F38C1BA22EA6994003C6BBD /* Debug */,
+				9F38C1BB22EA6994003C6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F38C1BC22EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_Wontae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F38C1BD22EA6994003C6BBD /* Debug */,
+				9F38C1BE22EA6994003C6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F38C1BF22EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_WontaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F38C1C022EA6994003C6BBD /* Debug */,
+				9F38C1C122EA6994003C6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F38C1C222EA6994003C6BBD /* Build configuration list for PBXNativeTarget "BRAKO_LinkYou_Dante_WontaeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F38C1C322EA6994003C6BBD /* Debug */,
+				9F38C1C422EA6994003C6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F38C18C22EA6993003C6BBD /* Project object */;
+}
