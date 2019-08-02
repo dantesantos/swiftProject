@@ -14,6 +14,7 @@
 		9F38C1A222EA6994003C6BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F38C1A022EA6994003C6BBD /* LaunchScreen.storyboard */; };
 		9F38C1AD22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C1AC22EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeTests.swift */; };
 		9F38C1B822EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C1B722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift */; };
+		9F8B180C22F3C854006B5973 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B180B22F3C854006B5973 /* ServicesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F38C1B322EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRAKO_LinkYou_Dante_WontaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F38C1B722EA6994003C6BBD /* BRAKO_LinkYou_Dante_WontaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRAKO_LinkYou_Dante_WontaeUITests.swift; sourceTree = "<group>"; };
 		9F38C1B922EA6994003C6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8B180B22F3C854006B5973 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9F38C19722EA6993003C6BBD /* AppDelegate.swift */,
 				9F38C19922EA6993003C6BBD /* ViewController.swift */,
+				9F8B180B22F3C854006B5973 /* ServicesTableViewCell.swift */,
 				9F38C19B22EA6993003C6BBD /* Main.storyboard */,
 				9F38C19E22EA6994003C6BBD /* Assets.xcassets */,
 				9F38C1A022EA6994003C6BBD /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F38C19A22EA6993003C6BBD /* ViewController.swift in Sources */,
+				9F8B180C22F3C854006B5973 /* ServicesTableViewCell.swift in Sources */,
 				9F38C19822EA6993003C6BBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
